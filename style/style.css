@@ -180,3 +180,35 @@ main section{
 .resume-download{
     margin-top: 50px;
 }
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"]{
+    border-radius: 5px;
+    height: 64px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    border-style: none;
+    padding: 10px 30px;
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+footer textarea{
+    border-radius: 5px;
+    height: 64px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    border-style: none;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    height: 180px;
+    font-size: 20px;
+}
